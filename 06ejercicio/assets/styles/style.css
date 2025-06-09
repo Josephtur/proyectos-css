@@ -1,0 +1,66 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    height: 100vh; /*ocupa toda la altura de la ventana*/
+    display: grid;
+    grid-template-columns: 1fr; /*Una sola columna*/
+    grid-template-rows: 10% 15% 1fr 10%;
+    grid-template-areas: 
+        "zh" /*header*/
+        "zn" /*nav*/
+        "zm" /*main*/
+        "zf" /*footer*/
+    ;
+}
+
+header{
+    grid-area: zh;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: flex; /*Flexbox para distribucion interna*/
+    justify-content: space-between; /*Espacio entre elemento*/
+    text-align: center;
+}
+
+#logo{
+    display: flex;
+    align-items: center; /*centrado verticalmente*/
+}
+
+#titulo{
+    margin-right: 50%;/*margen derecho para la separacion*/
+    display: flex;
+    align-items: center; /*centrar verticalmente*/
+}
+
+/*IMAGEN DEL LOGO*/
+header > div > img{
+    max-height: 80px; /*tamaño max alto*/
+    padding: 10px; /*espaciado interno*/
+    margin-left: 10px; /*margen izquierdo*/
+}
+
+nav{
+    grid-area: zn; /*Area del grid para nav*/
+    background-color: rgb(192, 184, 173);
+    color:white;
+    display: flex; /*flexbox*/
+    align-content: center; /*centrar contenido verticalmente*/
+    justify-content: space-between; /*Espacio entre elementos*/
+    padding: 10px; /*Espacio interno*/
+    
+}
+
+nav > div {
+    font-size: 20px;
+}
+
+nav > div:hover{
+    color: yellow; /*cambia el color al pasar el cursor*/
+}
+
