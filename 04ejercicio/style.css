@@ -1,0 +1,49 @@
+
+body {
+
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 20% 1fr;
+
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #ffcccb; 
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #add8e6; 
+      padding: 20px;
+      text-align: left;
+    }
+
+    main {
+      background-color: #90ee90; 
+      padding: 20px;
+      text-align: center;
+      min-height: 300px;
+    }
+
+    footer {
+      background-color: #f0e68c; 
+      padding: 20px;
+      text-align: center;
+    }
+
+
+
+     header, nav, main, footer {
+      border: 2px solid black;
+      margin: 10px 0;
+    }
