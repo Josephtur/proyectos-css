@@ -1,0 +1,6 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Incluye padding y borde en ancho alto total*/
+    font-family: 'Poppins', sans-serif; /*Define fuente base para toda la pagina*/
+}
