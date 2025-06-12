@@ -1,0 +1,50 @@
+/*Definicion de variables globales*/
+:root{
+    --lighting-color: #0089b7; /*Color principal claro ( azul turquesa)*/
+    --dark-color: #003d62; /*Color secundario oscuro*/
+    --darker-color: #003251; /*Variante aun mas oscura*/
+    --color: #fff700; /*color de acento*/
+    --color-amarillo-claro: #f2de2c39;
+    --color-favorito: #40E0D0; 
+    --color-favorito: #7a959e; 
+}
+
+/*Aplica a todos los elementos*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Incluye borde y padding en el ancho y alto*/
+    font-family: 'Poppins' , sans-serif;
+}
+
+/*Ajuste base del tamaño fuente html*/
+
+html{
+    font-size: 62.5%; /*Hace que 1 rem = 10px (62.5% de 16px*/
+}
+
+/*Estilos comunes a body y html*/
+
+body, html {
+    font-weight: 300; /*Grosor de fuente ligero*/
+    line-height: 1.4; /*Interlineado para mejorar la lectura*/
+    scroll-behavior: smooth; /*Scroll suave para enlaces internos*/
+    color: white; /*Color mde texto por defecto blanco*/
+}
+
+body{
+    font-size: 1.4rem; /*tamaño de texto base: 14px*/
+}
+
+/*contenedor centralizado*/
+
+.container{
+    max-width: 1300px; /*ancho maximo del contenedor*/
+    margin: 0 auto; /*centra horizontalmente*/
+}
+
+/*esto es un estilo para enlaces*/
+a{
+    text-decoration: none; /*quita el subrayado*/
+    color: white; /*Color de enlace blanco*/
+}
